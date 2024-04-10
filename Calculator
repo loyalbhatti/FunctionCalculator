@@ -1,0 +1,21 @@
+README.mfunction cal(cal:any){
+  
+  let msg = parseInt(prompt('enter your first number: '));
+  let msg1 = parseInt(prompt('enter your second number: '));
+  let msg2 = prompt(`chalk.blue${'select your operator:' }`);
+  
+  if(msg2 == '+')
+  {
+    console.log(msg + msg1);
+  }
+  else if(msg2 == '-'){
+    console.log(msg - msg1);
+  }
+  else if(msg2 == '*'){
+    console.log(msg * msg1);
+  }
+  else if(msg2 == '/'){
+    console.log(msg / msg1);
+  }
+  else{
+    console.log('invalid operator');
